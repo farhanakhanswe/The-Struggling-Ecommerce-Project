@@ -1,0 +1,30 @@
+:root{
+    --primary-dark-blue-color: #213555;
+    --primary-light-blue-color: #4F709C;
+    --primary-brown-color: #D8C4B6;
+    --primary-beige-color: #FSEFE7
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+}
+
+header{
+    background: var(--primary-dark-blue-color);
+}
+nav{
+    background:var(--primary-light-blue-color);
+    display:flex;
+    justify-items: center;
+}
+
+header h1, nav h1{
+    margin: 0 10px;
+    color: white;
+}
